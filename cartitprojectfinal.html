@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<link rel="stylesheet" href="cartitprojectfinal.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<title>CART PAGE</title>
+
+
+</head>
+
+<body>
+ <header>
+        <a href="index.html" class="logo">AZAR</a>
+        <nav class="navigation">
+            <a href=""></a>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="acc.html"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="#" id="theme-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>
+        </nav>
+    </header>
+<h1>Your cart</h1>
+
+<form>
+
+<div class="cart-page">
+
+<table>
+
+
+<tr>
+<th class="Product">Product</th>
+<th>Quantity</th>
+<th>Subtotal</th>
+</tr>
+
+
+<tr>
+<td> 
+<div class="cart-info">
+<img src="https://vegaegy.com/cdn/shop/files/beige-hoodie-slow_DeMain.gif?v=1699897775%22">
+<div>
+<p class="zipper">product name:Azar Unisex beige hoodie</p>
+<small>Black/S</small>
+<p class="price">price:600.00£E</p>
+<br>
+<textarea placeholder="order special instructions...."></textarea>
+</div>
+
+</div>
+
+
+</td>
+<td><input type="number" min="1" value="1"></td>
+<td>600.00£E</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+<div class="total-price">
+<table>
+<tr>
+<td>Subtotal</td>
+<td>600.00£E</td>
+</tr>
+
+<tr>
+<td>tax</td>
+<td>100.00£E</td>
+</tr>
+
+<tr>
+<td>total</td>
+<td>700.00£E</td>
+</tr>
+
+
+</table>
+
+
+</div>
+
+<button type="button" onclick="location.href='checkoutprojectfinal.html'"  id="submit1" type="submit" value="Check out">Check out</button>
+
+<br><br>
+<hr>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-col left-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col center-col">
+                <h4>Online Shop</h4>
+                <ul>
+                    <li><a href="Hoodies.html">Hoodies</a></li>
+                    <li><a href="all_prod.html">Denims</a></li>
+                    <li><a href="sets-page1.html">Sets</a></li>
+                    <li><a href="p1cargo.html">Cargos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col right-col">
+                <h4>Follow Us</h4>
+             
+                    <div class="social-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+</div>
+
+               
+            </div>
+        </div>
+    </div>
+</footer>
+
+   
+
+ <script>
+        var themeToggle = document.getElementById("theme-toggle");
+        themeToggle.addEventListener("click", function () {
+            document.body.classList.toggle("light-theme");
+        });
+    </script>
+
+
+</body>
+
+</html>
