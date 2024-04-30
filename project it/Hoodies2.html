@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AZAR</title>
+    <link rel="stylesheet" href="css\Hoodies2-style2.css">
+    <link rel="stylesheet" href="css\Hoodies2-style.css" id="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">AZAR</div>
+            <div class="box-container">
+                <table class="elementscontainer">
+                    <tr>
+                        <td><input type="text" placeholder="Search..." class="search"></td>
+                        <td class="butt"><button type="submit" id="search-button"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button></td>
+                    </tr>
+                </table>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <button onclick="changestylesheetp2()" class="themes-butt"><i
+                        class="fa-solid fa-circle-half-stroke"></i></button>
+                <a href="acc.html"><i class="fa-solid fa-circle-user "></i></a>
+                <a href="cartitprojectfinal.html"><i class="fas fa-shopping-cart"></i></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex-box">
+
+        <section class="left">
+            <div class="big-img">
+                <img src="image/IMG-20240430-WA0031.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="image/IMG-20240430-WA0025.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/IMG-20240430-WA0027.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/IMG-20240430-WA0028.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/IMG-20240430-WA0031.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="image/IMG-20240430-WA0030.jpg" onclick="showImg(this.src)">
+                </div>
+        </section>
+        <section class="right">
+            <table class="right-table">
+                <tr>
+                    <td class="td-table">
+                        <div class="url">Home > Product > Pure Lavender Hoodie</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-table">
+                        <div class="pname">Pure Lavender Hoodie</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-table">
+                        <div class="ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-table">
+                        <div class="price">price: <del>800$</del> 600$</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-table">
+                        <div class="size">
+                            <p>Size:</p>
+                            <div class="psize active">M</div>
+                            <div class="psize">L</div>
+                            <div class="psize">XL</div>
+                            <div class="psize">XXL</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td-table">
+                        <div class="btn-box">
+                            <a href="cartitprojectfinal.html"><button class="cart-btn">Add to Cart</button></a>
+                            <a href="cartitprojectfinal.html"><button class="buy-btn">Buy Now</button></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <section class="video-container">
+        <video controls autoplay loop muted>
+            <source src="VID-20240430-WA0007.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <article class="text-center-container">
+        <div class="text-center">
+            <div class="text__heading">100% Cotton outside, Soft fleece inside.</div>
+            <div class="text__caption">Made with details , Got a hidden zipper. Perfect for upcoming winters.
+            </div>
+        </div>
+    </article>
+    <section class="Product-itme-container">
+        <div class="image-itme-container">
+            <div class="Product-detiles-image-card">
+                <div class="Product-detiles-image-image">
+                    <picture>
+                        <img src="https://www.beyours.in/cdn/shop/files/black-hoodie-1.jpg?v=1695718601"
+                            class="Product-image">
+                    </picture>
+                </div>
+                <div class="Product-detiles-image-content">
+                    <div class="product-detail-image__heading">Premium Look</div>
+                </div>
+            </div>
+            <div class="Product-detiles-image-card">
+                <div class="Product-detiles-image-image">
+                    <picture>
+                        <img src="https://www.beyours.in/cdn/shop/files/rust-orange-hoodie-4.jpg?v=1695635847"
+                            class="Product-image">
+                    </picture>
+                </div>
+                <div class="Product-detiles-image-content">
+                    <div class="product-detail-image__heading">Hidden Zipper</div>
+                </div>
+            </div>
+            <div class="Product-detiles-image-card">
+                <div class="Product-detiles-image-image">
+                    <picture>
+                        <img src="https://www.beyours.in/cdn/shop/files/black-hoodie-4.jpg?v=1695620482"
+                            class="Product-image">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ifram-container">
+        <iframe src="https://tie-house.com/privacy-policy/" frameborder="0"></iframe>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="Hoodies.html">Hoodies & Sweatshirts</a></li>
+                        <li><a href="sets-page1.html">Sets</a></li>
+                        <li><a href="p1cargo.html">Cargo</a></li>
+                        <li><a href="all_prod.html">DENIMS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 id="Contact">follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="hoodies-script.js"></script>
+</body>
+
+</html>

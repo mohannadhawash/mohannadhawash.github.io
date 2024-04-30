@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+    text-decoration: none;
+}
+
+
+header {
+    height: 7vh;
+    background-color: antiquewhite;
+}
+
+nav {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background-color: black;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+}
+
+nav .logo {
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+.box-container {
+    width: 366px;
+    height: 42px;
+    padding: 0px 10px;
+}
+
+.elementscontainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 50px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.butt {
+    position: relative;
+    right: 40px;
+}
+
+#search-button {
+    font-size: 20px;
+    color:#000000;
+    background-color:white;
+    border: #ffffff;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li button{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0 10px;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:rgb(96, 153, 102);
+    width: 0;
+    height: 2.5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+nav ul i {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+section{
+    padding:50px  ;
+    padding-bottom: 10px;
+    padding-left:50px;
+    background-color:white;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;/vh=view port/
+    display: flex;
+    align-items: center;
+}
+.firstphoto img{
+    display: flexbox;
+    width:70%;
+    margin-left:200px;
+    height:70%;
+    background-position: right center;
+    border: 0.5rem solid black ;
+    box-shadow: 0 1rem 3rem;
+}
+.main h1{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:rgb(64, 81, 59) ;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color:rgb(96, 153, 102) ;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+.main-btn{
+    color:rgb(237, 241, 214) ;
+    background-color:rgb(157, 192, 139) ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400px;
+    display: inline-block;
+    padding: 0.5em 1.1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color:rgb(64, 81, 59) ;
+    transform: scale(1.1);
+
+}
+.collection h1{
+    text-align: center;
+    color:rgb(96, 153, 102) ;
+    padding-top: 20px; ;
+    padding-bottom: 20px;
+    font-size: 3em;
+    font-weight: 600em;
+    letter-spacing: 0.1cm;
+    background-color: rgb(237, 241, 214);
+    border-radius: 15px;
+    
+    
+}
+.collection .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.collection .container .box{
+    overflow: hidden;
+    flex: 1 1 20rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    border: 1rem solid black ;
+    box-shadow: 0 1rem 3rem;
+    color:rgb(0, 0, 0.1) ;
+    position: relative;
+}
+.collection .container .box img{
+    width: 100%;
+    height:100% ;
+}
+.collection .container .box .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align:  center;
+    background-color:rgb(0,0,0,0.5);
+    padding: 10rem 2rem 2rem;
+    top: -100%;
+    left: 0;
+    
+}
+.collection .container .box:hover .content{
+    top:0;
+    transition: 0.7s ease;
+} 
+.collection .container .box .content h2{
+    font-size: 2.5rem;
+    color: white;
+}
+.collection .container .box .content h3{
+    font-size: 1.7rem;
+    color:white;
+  /*  font-family:Lucida Handwriting ;*/
+    font-weight: 600;
+}
+.collection .container .box .content .btn{
+    color: rgb(237, 241, 214);
+    background-color: rgb(96, 153, 102);
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 300;
+    border-radius: 15px;
+    padding: 0.5rem;
+    transition: 0.7s ease;
+}
+.collection .container .box .content .btn:hover{
+    background-color:rgb(64, 81, 59) ;
+    transform: scale(1.1);   
+}
+.reviews h1{
+    font-size: 50px;
+    color: rgb(96, 153, 102);
+    padding: 20px 20px;
+    background-color: rgb(237, 241, 214);
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.reviews .boxx{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: black;
+    transition: 0.7s ease;
+}
+.reviews .boxx:hover{
+    transform: scale(1.1);
+}
+#ss{
+    display: inline-flex;
+    margin-left: 200px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 70px 0;
+    background-color:#211c03;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:rgb(96, 153, 102);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: rgb(96, 153, 102);
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: antiquewhite;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: antiquewhite;
+}
