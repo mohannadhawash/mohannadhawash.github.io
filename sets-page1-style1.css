@@ -125,9 +125,9 @@ section{
 }
 .firstphoto img{
     display: flexbox;
-    width:70%;
+    width:50%;
     margin-left:200px;
-    height:70%;
+    height:50%;
     background-position: right center;
     border: 0.5rem solid black ;
     box-shadow: 0 1rem 3rem;
@@ -257,7 +257,8 @@ section{
 }
 #ss{
     display: inline-flex;
-    margin-left: 200px;
+    <!--margin-left: 200px;-->
+    align-items:center;
 }
 
 .container {
