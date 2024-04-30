@@ -120,13 +120,13 @@ section{
 .main {
     width: 100%;
     min-height: 100vh;/vh=view port/
-    display: flexbox;
+    display: flex;
     align-items: center;
 }
 .firstphoto img{
     display: flexbox;
     width:80%;
-    margin-left:200px;
+    margin-left:100px;
     height:100px;
     background-position: right center;
     border: 0.5rem solid black ;
