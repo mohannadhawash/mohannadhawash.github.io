@@ -124,9 +124,9 @@ section{
     align-items: center;
 }
 .firstphoto img{
-    display: inline;
+    display: flexbox;
     width:80%;
-    margin-left:200px;
+    margin-left:50px;
     height:80%;
     background-position: right center;
     border: 0.5rem solid black ;
