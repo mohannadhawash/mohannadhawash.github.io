@@ -125,9 +125,9 @@ section{
 }
 .firstphoto img{
     display: flexbox;
-    width:80%;
-    margin-left:100px;
-    height:80%;
+    width:70%;
+    margin-left:200px;
+    height:70%;
     background-position: right center;
     border: 0.5rem solid black ;
     box-shadow: 0 1rem 3rem;
